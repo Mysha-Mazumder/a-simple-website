@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-color: rgb(42, 41, 41);
+    background-color:#5F264A;
     height: 18vh;
 }
 .logo img{
@@ -60,5 +60,5 @@ padding-bottom: 20px;
 }
 .banner button:hover{
     color: #fff;
-    background-color: brown;
+    background-color: #643A6B;
 }
