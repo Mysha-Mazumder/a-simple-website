@@ -10,7 +10,7 @@ header{
 .logo img{
 width: 100px;
 margin-top: 25px;
-margin-left: 6px;
+margin-left: 26px;
 }
 .nav ul{
     display: flex;
@@ -30,6 +30,7 @@ margin-left: 6px;
     cursor: pointer;
 }
 .banner{
+    align-items: center;
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -40,6 +41,7 @@ margin-left: 6px;
 .banner-img img{
     width: 300px;
     height: 300px;
+    margin-left: 50px;
 }
 .banner-info{
     margin-top: 40px;
