@@ -49,6 +49,7 @@ margin-left: 26px;
 }
 .banner-info h1{
     padding-bottom: 10px;
+    margin-left: 47px;
 }
 .banner-info p{
 padding-top: 18px;
@@ -68,12 +69,15 @@ padding-bottom: 20px;
     text-align: center;
     margin-bottom: 20px;
     margin-left: 20px;
+    
 }
 .about{
+    color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-image: url(./images/background.png),linear-gradient(45deg,#643A6B,#5F264A);
 }
 .about-img img{
     width: 300px;
@@ -92,4 +96,26 @@ padding-bottom: 20px;
     color:#fff;
     background-color: rgb(185, 0, 0);
     border-radius: 4px;
+}
+.services{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./images/background.png),linear-gradient(45deg,#957777,#B0A4A4)
+}
+.service1 img{
+    width: 50px;
+    margin-left: 60px;
+}
+.service1{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.service1 h2,p,button{
+    margin-left: 40px;
+}
+.service1 button{
+    margin-top: 15px;
 }
